@@ -47,6 +47,7 @@ class ProfileBuilder implements Profile, Serializable {
                 serializeobj.writeObject(o);
                 serializeobj.close();
                 serialize.close();
+                System.out.println("On Windows, your exported ser file should be in your C:\User\(yourUsernamehere), folder";
             } catch (IOException i) {
                 System.out.println(i);
             }
