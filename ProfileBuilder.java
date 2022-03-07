@@ -35,7 +35,6 @@ class ProfileBuilder implements Profile, Serializable {
     public void get_occupation() { this.occupation = get_("occupation"); }
     public void get_gender() { this.gender = get_("gender (male/female/other)"); }
     public void get_preferred_pronoun() { this.preferred_pronoun = get_("preferred pronoun (her/his/their)"); }
-
     public void ask_question(Object o) { 
         Scanner scanner = new Scanner(System.in);  
         System.out.println("Would you like to have this information exported to a document? (Y/N)"); 
