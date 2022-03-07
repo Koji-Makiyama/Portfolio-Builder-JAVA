@@ -5,7 +5,6 @@ import java.io.Serializable;
 import java.util.Scanner; 
 
 class ProfileBuilder implements Profile, Serializable {    
-
     String fName;
     String mName;
     String lName;
@@ -43,7 +42,7 @@ class ProfileBuilder implements Profile, Serializable {
         String input = scanner.nextLine();
         if (input.equals("Y")) {
             try {
-                FileOutputStream serialize = new FileOutputStream("./FileName.txt");
+                FileOutputStream serialize = new FileOutputStream("./ExportedSerProfile.ser");
                 ObjectOutputStream serializeobj = new ObjectOutputStream(serialize);
                 serializeobj.writeObject(o);
                 serializeobj.close();
