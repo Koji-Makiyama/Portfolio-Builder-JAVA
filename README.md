@@ -9,11 +9,11 @@ This repository includes .java files that need to be compiled by the Java compil
 You can do this via your preferred IDE or via Windows CLI / Apple's Terminal / Linux CLI, etc.
 
 FOR WINDOWS:\
-(Install Java, e.g. Java SE 17)\
+(Install Java, e.g. Java SE 17.)\
 https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html \
 Extract the cloned zip file.\
 Open the Command Prompt.\
 Use 'cd' (change directory) to navigate to the extracted folder.\
-Enter 'javac Main.java' (This will compile the .java files in the directory into .class files)\
-Enter 'java Main' (This will run the .class files that were compiled)\
+Enter 'javac Main.java' (This will compile the .java files in the directory into .class files).\
+Enter 'java Main' (This will run the .class files that were compiled).\
 And the program should begin prompting you with messages!
