@@ -13,6 +13,6 @@ FOR WINDOWS:\
 Extract the cloned zip file.\
 Open the Command Prompt.\
 Use 'cd' (change directory) to navigate to the extracted folder.\
-Enter 'javac Main.java'\
-Enter 'java Main'\
+Enter 'javac Main.java' (This will compile the .java files in the directory into .class files)\
+Enter 'java Main' (This will run the .class files that were compiled)\
 And the program should begin prompting you with messages!
