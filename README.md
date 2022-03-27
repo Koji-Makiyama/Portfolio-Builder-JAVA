@@ -9,6 +9,7 @@ This repository includes .java files that need to be compiled by the Java compil
 You can do this via your preferred IDE or via Windows CLI / Apple's Terminal / Linux CLI, etc.
 
 FOR WINDOWS:\
+(Install Java, e.g. Java SE 17)\
 Extract the cloned zip file.\
 Open the Command Prompt.\
 Use 'cd' (change directory) to navigate to the extracted folder.\
