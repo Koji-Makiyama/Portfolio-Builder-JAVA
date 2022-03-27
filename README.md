@@ -10,6 +10,7 @@ You can do this via your preferred IDE or via Windows CLI / Apple's Terminal / L
 
 FOR WINDOWS:\
 (Install Java, e.g. Java SE 17)\
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html \
 Extract the cloned zip file.\
 Open the Command Prompt.\
 Use 'cd' (change directory) to navigate to the extracted folder.\
